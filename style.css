@@ -1,0 +1,246 @@
+@font-face {
+  font-family: Inconsolata-VariableFont;
+  src: url(conference-ticket-generator-main/assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+  font-weight: 400;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: Inconsolata-VariableFont;
+
+}
+
+body{
+  background-image: url(conference-ticket-generator-main/assets/images/background-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* .background {
+  height: 100vh;
+  overflow: hidden;
+
+} */
+
+/* .background-img {
+  height: 100%;
+  width: 100%;
+
+  background-position: center;
+
+} */
+
+/* setting circles */
+.circle-box {
+  height: 160px;
+  width: 160px;
+
+}
+
+.circles {
+  background: url(conference-ticket-generator-main/assets/images/pattern-circle.svg) no-repeat center;
+  height: 110%;
+  width: 110%;
+  background-size: cover;
+}
+
+/* layer1 */
+
+/* positioning circles */
+
+/* top-circle */
+.top-circle {
+  position: absolute;
+  top: -11%;
+  left: 10%;
+}
+
+/* bottom circle */
+.btm-circle {
+  position: absolute;
+  right: 28%;
+  top: 48%;
+}
+
+/* squiggly */
+/* squiggly top */
+.top-squiggly {
+  position: absolute;
+  right: 0%;
+  top: 5%;
+  height: 200px;
+  width: 350px;
+  background: url(conference-ticket-generator-main/assets/images/pattern-squiggly-line-top.svg) no-repeat center;
+  background-size: cover;
+}
+
+/* bottom squiggly */
+.bottom-squiggly-box {
+
+  height: 350px;
+  width: 700px;
+  position: absolute;
+  bottom: 0px;
+  overflow: hidden;
+
+
+}
+
+.bottom-squiggly-svg {
+  transform: scale(1.7, 1.5);
+  position: relative;
+  bottom: 70px;
+}
+
+/* grid lines */
+
+.grid-lines {
+  position: absolute;
+  top: 0;
+ 
+  width: 100vw;
+  height: 100vh;
+ 
+  
+}
+
+/* form layer or layer 2 */
+
+
+
+
+body .content-area {
+  width: 40%;
+  min-width: 450px;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+}
+
+
+
+/* context area /  headings  */
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.logo-svg {
+
+  margin-top: 0.5rem;
+  height: 1.15rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+.discription {
+  text-align: center;
+  color: rgb(181, 181, 181);
+}
+
+/* form  */
+.form {
+  height: fit-content;
+  width: 60%;
+  margin-top: 1.5rem;
+ 
+}
+
+
+/* file/img upload  */
+
+
+.form h2 {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 1rem 0 0.5rem 0;
+  /* margin-bottom: 0.5rem; */
+}
+
+
+
+.img-file-container {
+  border-radius: 0.5rem;
+  height: 100px;
+  
+  background-color: hsla(0, 0%, 100%, 0.088);
+  border: 1px dashed hsla(0, 0%, 100%, 0.357); /* Set border width */
+  border-radius: 0.5rem;
+  
+}
+
+
+.img-upload-label{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  justify-content: space-around;
+  cursor:pointer;
+}
+
+.img-upload-label p{
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+ 
+}
+.upload-icon{
+ background-color: hsla(0, 0%, 100%, 0.228);
+  border-radius: 0.5rem;
+  height: 2rem;
+  width: 2rem;
+  margin-top: 0.7rem;
+  padding: 0.5rem;
+  
+}
+
+#img-upload{
+  display: none;
+}
+
+.file span {
+  color: rgb(175, 175, 175);
+  font-weight: 100;
+  font-size: 0.7rem;
+  margin-top: 0.2rem;
+}
+
+.form-input{
+  width: 100%;
+  height: 40px;
+  border-radius:0.5rem ;
+  background-color: hsla(0, 0%, 100%, 0.088); 
+  padding: 0 0 0 0.5rem;
+}
+
+.submit-btn{
+  width: 100%;
+  height: 40px;
+  border-radius:0.5rem ;
+  margin: 1rem 0 0 0 ;
+  background-color:   hsl(7, 71%, 60%) ;
+  color: black;
+  font-weight: 600;
+}
+
+

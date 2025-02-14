@@ -1,0 +1,99 @@
+/* hsl(7, 86%, 67%) to hsl(0, 0%, 100%) */
+/*  hsl(7, 88%, 67%) */
+/*  hsl(7, 71%, 60%) */
+
+.content-area , .context-container {
+  text-align: center;
+}
+
+.special-text{
+  color: hsl(7, 86%, 67%) to hsl(0, 0%, 100%);
+}
+
+.context-container h2{
+     margin: 3rem 0rem 0rem 0rem;
+     font-size: 2.3rem;
+     
+}
+
+.context-container p{
+    margin: 2rem  0 0 0 ;
+    font-size: 1rem;
+    color: rgb(210, 205, 205);
+}
+/* card */
+.card-content-container{
+  
+  width: 400px;
+  height: 190px;
+  position: absolute;
+  top: 50%;  
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  
+
+}
+
+.card-svg{
+  height: 190px;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+}
+
+.card-content-container .card-logo{
+
+  height: 1.5rem;
+  margin: 0.9rem 0 0 1rem;
+}
+
+.card-content-container p{
+  color: rgb(210, 205, 205);
+  font-size: 0.8rem;
+}
+
+ .card-date-loc {
+  margin: 0.2rem 0 0 2.5rem ;
+  
+}
+
+
+.card-lower-content{
+  display: flex;
+  margin:7% 0 0 1rem ;
+}
+.card-lower-content .uploaded-img{
+  height: 3rem;
+  border-radius: 0.3rem;
+}
+.lower-sub-container{
+  display: grid;
+  margin: 0 0 0 0.5rem;
+}
+
+.github{
+  display: flex;
+  align-items: center;
+}
+.github img{
+  height: 1.2rem;
+  margin: 0 0.4rem 0 0;
+}
+
+
+
+.serial-number{
+  align-self:flex-end;
+  transform:rotate(90deg) ;
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: rgb(148, 143, 143); 
+  margin: 1.7rem 0.2rem 0 0 ;
+}
+
+
+
+
+
+
