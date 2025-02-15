@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Confernce Ticket Generator</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 
 <body>
-    <!-- <div class="background"> -->
-        <!-- <img class="background-img" src="conference-ticket-generator-main/assets/images/background-desktop.png"
-            alt="background-image" /> -->
         <!-- layer1 -->
         <div class="layer1">
             <!-- this layer is for circles and swingy shapes -->
@@ -169,7 +168,7 @@
             </div>
 
             <div class="form">
-                <form id="actualForm" action="card.html">
+                <form id="actualForm" >
 
                     <!-- file /img upload area -->
                         <div class="file">
@@ -188,19 +187,17 @@
                         
                             <h2>Full Name</h2>
                             <input class="form-input name" type="text">
+                            <span id="nameError" class="error hidden"></span>
                        <!-- email -->
                        <h2>Email Address</h2>
                        <input class="form-input email" type="text" placeholder="example@gmail.com">
+                       <span id="emailError" class="error hidden"></span>
                        <!-- github username -->
                        <h2>Github Username</h2>
                        <input class="form-input github-name" type="text" placeholder="@yourusername">
-
+                       <span id="githubError" class="error hidden"></span>
                      <button class="submit-btn" >Generate My Ticket</button>
                 </form>
-            </div>
-
-        </div>
-
 
     <!-- </div> -->
 </body>
