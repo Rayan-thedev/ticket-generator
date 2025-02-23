@@ -22,7 +22,7 @@ Your users should be able to:
 
 - Complete the form with their details
 - Receive form validation messages if:
-  - Any field is missed
+  - Any field is missed...............
   - The email address is not formatted correctly
   - The avatar upload is too big or the wrong image format
 - Complete the form only using their keyboard

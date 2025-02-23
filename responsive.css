@@ -1,0 +1,76 @@
+@media (max-width:480px){
+  /* background */
+  
+  body{
+        
+       height: 107vh; 
+      
+    }
+    .grid{
+        
+      height: 50vh;
+    }
+    .circle-box{
+        height: 100px;
+        width: 100px;
+    }
+    .top-circle{
+        top: -5%;
+        left: 0;
+    }
+  
+    .btm-circle{
+        right: 0;
+        top: 58%;
+    }
+
+    .top-squiggly{
+        height: 40px;
+        width: 80px;
+        top: 2%;
+        right: 0;
+    }
+
+    .bottom-squiggly-box{
+        left: -50px;
+      bottom: -30px;
+      height: 200px;
+      width: 300px;
+       
+    }   
+  
+  
+  
+  
+  
+  /* form */
+    body .content-area{
+    width: 100vw;
+    
+   }
+
+  
+
+   .heading{
+    font-size: 1.5rem;
+   }
+   .discription{
+        margin: 1rem;
+    
+   }
+   .form{
+    width: 80%;
+   }
+    
+ .form h2{
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 1.4rem 0 0.5rem 0;
+ }
+
+ .submit-btn{
+    margin: 1.4rem 0 0 0 ;
+    
+ }
+
+}
