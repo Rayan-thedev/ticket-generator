@@ -72,5 +72,16 @@
     margin: 1.4rem 0 0 0 ;
     
  }
+ /*card.html (phone screen)*/ 
+ .card-svg , .card-content-container{
+  width:350px;
+ }
 
+ .card-content-container .card-logo{
+  margin: 1.6rem 0 0 1rem;
+  
+}
+.card-lower-content{
+  margin:2% 0 0 1rem ;
+}
 }
